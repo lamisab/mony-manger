@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class CustomTextButton extends StatelessWidget {
@@ -21,7 +22,7 @@ class CustomTextButton extends StatelessWidget {
     return TextButton(
       style: ButtonStyle(
           splashFactory:
-              splash! ? InkRipple.splashFactory : NoSplash.splashFactory),
+          splash! ? InkRipple.splashFactory : NoSplash.splashFactory),
       child: Text(text!, style: textStyle ?? TextStyle(color: textColor)),
       onPressed: press,
     );
