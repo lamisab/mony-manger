@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:money_app/test.dart';
 import 'color.dart';
 import 'customTextButtone.dart';
 import 'homeReportContainer.dart';
+
 
 class Home extends StatelessWidget {
   Home({Key? key}) : super(key: key);
@@ -13,12 +13,12 @@ class Home extends StatelessWidget {
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            icon: Icon(Icons.home, color: primaryColor),
-            label: 'Home',
-          ),
-          BottomNavigationBarItem(
             icon: Icon(Icons.compare_arrows_sharp, color: primaryColor),
             label: 'Transaction',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home , color: primaryColor),
+            label: 'الرئيسية',
           ),
         ],
       ),
@@ -26,8 +26,10 @@ class Home extends StatelessWidget {
         backgroundColor: primaryColor,
         child: Icon(Icons.add),
         onPressed: () {
-          Navigator.push(context,
-              MaterialPageRoute(builder: (BuildContext context) => Test()));
+          Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (BuildContext context) => Home()));
         },
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
@@ -40,3 +42,4 @@ class Home extends StatelessWidget {
     );
   }
 }
+
