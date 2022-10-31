@@ -1,31 +1,23 @@
-import 'package:day_manager/view/introScreen.dart';
-
-import 'controller/reportController.dart';
-import 'controller/transactionController.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'constFiles/colors.dart';
-import 'controller/transDetailController.dart';
-import 'view/home.dart';
+import 'package:money_app/home.dart';
 
-void main() => runApp(MyApp());
+
+void main() async {
+  //await GetStorage.init();
+
+  runApp(const MyApp());
+}
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return MultiProvider(
-      providers: [
-        ChangeNotifierProvider(create: (_) => ReportController()),
-        ChangeNotifierProvider(create: (_) => TransactionController()),
-        ChangeNotifierProvider(create: (_) => TransDetailController()),
-      ],
-      child: MaterialApp(
-        title: 'Wafeer Manager',
-        theme: ThemeData(
-            primaryColor: primaryColor, scaffoldBackgroundColor: Colors.white),
-        debugShowCheckedModeBanner: false,
-        home: introScreen(),
-      ),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(),
+      title: 'Personal Expenses',
+      home: Home(),
     );
   }
 }
