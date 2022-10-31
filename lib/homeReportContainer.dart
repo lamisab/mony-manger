@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'TransactionController.dart';
 import 'color.dart';
 
-String expense = "Expense";
-String income = "Income";
+String expense = "الصرف";
+String income = "الدخل";
 List<String> list = <String>['Income', 'Expense'];
 
 var items = [
@@ -28,7 +28,7 @@ class HomeReportContainer extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Text("Monthly salary",
+          Text("الراتــب",
               style: TextStyle(
                   color: blackColor,
                   fontSize: 22,
@@ -63,12 +63,12 @@ class HomeReportContainer extends StatelessWidget {
                               padding: const EdgeInsets.all(12.0),
                               child: Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
-                                crossAxisAlignment: CrossAxisAlignment.start,
+                                crossAxisAlignment: CrossAxisAlignment.end,
                                 children: [
                                   TextField(
                                     decoration: InputDecoration(
                                         border: InputBorder.none,
-                                        hintText: 'write your monthly salary?'),
+                                        hintText: 'فضلا قم بإدخال راتبك'),
                                   ),
                                   TextButton(
                                     style: ElevatedButton.styleFrom(
@@ -106,7 +106,7 @@ class HomeReportContainer extends StatelessWidget {
                   width: 1,
                   color: greyColor,
                   style: BorderStyle.solid,
-                  strokeAlign: StrokeAlign.outside),
+                  strokeAlign: StrokeAlign.inside),
               borderRadius: BorderRadius.all(Radius.circular(20.0))),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -123,10 +123,10 @@ class HomeReportContainer extends StatelessWidget {
                     ),
                     Center(
                       child: Text(
-                        "55",
+                        "٨٠٠٠",
                         style: TextStyle(color: blueColor, fontSize: 20),
                         maxLines: 2,
-                        textAlign: TextAlign.center,
+                        textAlign: TextAlign.start,
                       ),
                     ),
                   ],
@@ -134,7 +134,7 @@ class HomeReportContainer extends StatelessWidget {
               ),
               Container(
                 margin: EdgeInsets.symmetric(horizontal: 10.0),
-                color: Colors.black,
+                color: Colors.black26,
                 width: 2,
                 height: 50.0,
               ),
@@ -150,7 +150,7 @@ class HomeReportContainer extends StatelessWidget {
                     ),
                     Center(
                       child: Text(
-                        "400",
+                        "٤٠٠",
                         style: TextStyle(color: Colors.red, fontSize: 20),
                         maxLines: 2,
                         textAlign: TextAlign.center,
