@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:money_app/home.dart';
+import 'view/intro.dart';
+import 'package:flutter/material.dart';
 
 
 void main() async {
-  //await GetStorage.init();
 
   runApp(const MyApp());
 }
@@ -17,7 +17,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(),
       title: 'Personal Expenses',
-      home: Home(),
+      home: introScreen(),
+
     );
   }
 }

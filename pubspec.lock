@@ -8,6 +8,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.9.0"
+
   auto_size_text:
     dependency: "direct main"
     description:
@@ -15,6 +16,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.0.0"
+
   boolean_selector:
     dependency: transitive
     description:
@@ -29,6 +31,22 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.2.1"
+
+  charts_common:
+    dependency: transitive
+    description:
+      name: charts_common
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.11.0"
+  charts_flutter:
+    dependency: "direct main"
+    description:
+      name: charts_flutter
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.11.0"
+
   clock:
     dependency: transitive
     description:
@@ -50,6 +68,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.5"
+
   date_range_picker:
     dependency: "direct main"
     description:
@@ -57,6 +76,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.7"
+
   fake_async:
     dependency: transitive
     description:
@@ -69,25 +89,45 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_svg:
-    dependency: "direct main"
+
+  flutter_lints:
+    dependency: "direct dev"
     description:
-      name: flutter_svg
+      name: flutter_lints
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.22.0"
+    version: "2.0.1"
+
   flutter_test:
     dependency: "direct dev"
     description: flutter
     source: sdk
     version: "0.0.0"
   intl:
-    dependency: "direct main"
+
+    dependency: transitive
+
     description:
       name: intl
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.17.0"
+
+  lints:
+    dependency: transitive
+    description:
+      name: lints
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.1"
+  logging:
+    dependency: transitive
+    description:
+      name: logging
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.1.0"
+
   matcher:
     dependency: transitive
     description:
@@ -109,6 +149,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.0"
+
   nested:
     dependency: transitive
     description:
@@ -119,10 +160,12 @@ packages:
   path:
     dependency: "direct main"
     description:
+
       name: path
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.2"
+
   path_drawing:
     dependency: transitive
     description:
@@ -158,6 +201,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "5.0.0"
+
   sky_engine:
     dependency: transitive
     description: flutter
@@ -170,6 +214,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.9.0"
+
   sqflite:
     dependency: "direct main"
     description:
@@ -184,6 +229,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.4.0+2"
+
   stack_trace:
     dependency: transitive
     description:
@@ -205,13 +251,22 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.1"
-  synchronized:
-    dependency: transitive
+
+  syncfusion_flutter_charts:
+    dependency: "direct main"
     description:
-      name: synchronized
+      name: syncfusion_flutter_charts
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.0.0+3"
+    version: "20.3.52"
+  syncfusion_flutter_core:
+    dependency: transitive
+    description:
+      name: syncfusion_flutter_core
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "20.3.52"
+
   term_glyph:
     dependency: transitive
     description:
@@ -233,13 +288,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.2"
-  xml:
-    dependency: transitive
-    description:
-      name: xml
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "5.4.1"
+
 sdks:
-  dart: ">=2.18.0 <3.0.0"
-  flutter: ">=3.3.0"
+  dart: ">=2.18.2 <3.0.0"
+
