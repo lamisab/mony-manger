@@ -8,6 +8,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.9.0"
+
+  auto_size_text:
+    dependency: "direct main"
+    description:
+      name: auto_size_text
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.0.0"
+
   boolean_selector:
     dependency: transitive
     description:
@@ -22,6 +31,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.2.1"
+
   charts_common:
     dependency: transitive
     description:
@@ -36,6 +46,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.11.0"
+
   clock:
     dependency: transitive
     description:
@@ -57,6 +68,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.5"
+
+  date_range_picker:
+    dependency: "direct main"
+    description:
+      name: date_range_picker
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.7"
+
   fake_async:
     dependency: transitive
     description:
@@ -69,6 +89,7 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -76,18 +97,22 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.1"
+
   flutter_test:
     dependency: "direct dev"
     description: flutter
     source: sdk
     version: "0.0.0"
   intl:
+
     dependency: transitive
+
     description:
       name: intl
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.17.0"
+
   lints:
     dependency: transitive
     description:
@@ -102,6 +127,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.0"
+
   matcher:
     dependency: transitive
     description:
@@ -123,13 +149,59 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.0"
-  path:
+
+  nested:
     dependency: transitive
     description:
+      name: nested
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0"
+  path:
+    dependency: "direct main"
+    description:
+
       name: path
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.2"
+
+  path_drawing:
+    dependency: transitive
+    description:
+      name: path_drawing
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.5.1+1"
+  path_parsing:
+    dependency: transitive
+    description:
+      name: path_parsing
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.1"
+  petitparser:
+    dependency: transitive
+    description:
+      name: petitparser
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "5.1.0"
+  pie_chart:
+    dependency: "direct main"
+    description:
+      name: pie_chart
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "5.3.2"
+  provider:
+    dependency: "direct main"
+    description:
+      name: provider
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "5.0.0"
+
   sky_engine:
     dependency: transitive
     description: flutter
@@ -142,6 +214,22 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.9.0"
+
+  sqflite:
+    dependency: "direct main"
+    description:
+      name: sqflite
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.2.0+2"
+  sqflite_common:
+    dependency: transitive
+    description:
+      name: sqflite_common
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.4.0+2"
+
   stack_trace:
     dependency: transitive
     description:
@@ -163,6 +251,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.1"
+
   syncfusion_flutter_charts:
     dependency: "direct main"
     description:
@@ -177,6 +266,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "20.3.52"
+
   term_glyph:
     dependency: transitive
     description:
@@ -198,5 +288,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.2"
+
 sdks:
   dart: ">=2.18.2 <3.0.0"
+
